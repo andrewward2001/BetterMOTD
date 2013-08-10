@@ -1,0 +1,11 @@
+name: BetterMOTD
+main: tk.andrewmc.achmed.bettermotd.BetterMOTdMain
+version: 2.0
+website: http://dev.bukkit.org/bukkit-plugins/bettermotd
+authors: [1Achmed1]
+description: A simple plugin developed to color and better populate your MOTD
+commands:
+  motd:
+    description: Message of the Day
+    permission: bettermotd.user
+    permission-message: §4You do not have the proper permissions to do that!
