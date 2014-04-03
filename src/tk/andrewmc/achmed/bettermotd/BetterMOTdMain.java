@@ -40,6 +40,6 @@ public final class BetterMOTdMain extends JavaPlugin {
 		return this.getConfig().getString("MOTD")
 		.replace("&p", player)
 		.replace("&w", world)
-		.replace("&s", this.getConfig().getString("serverName"))
+		.replace("&s", this.getConfig().getString("serverName"));
 	}
 }
