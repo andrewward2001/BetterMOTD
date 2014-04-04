@@ -17,7 +17,7 @@
 # &s will be replaced with the server the sender is on.
 # Color codes to match those of essential's are available at http://bit.ly/mccolours
 
-MOTD: Welcome,  &4 &p &r! You are in world &w, and on server &s!
+MOTD: Welcome,  &4&p&r! You are in world &w, and on server &s!
 
 # Since the getServer() string will display CraftBukkit instead of your server name, I had
 # to replace it with this getString().
