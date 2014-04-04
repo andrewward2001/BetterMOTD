@@ -7,5 +7,5 @@ description: A simple plugin developed to color and better populate your MOTD
 commands:
   motd:
     description: Message of the Day
-    permission: bettermotd.user
+    permission: bettermotd.use
     permission-message: §4You do not have the proper permissions to do that!
