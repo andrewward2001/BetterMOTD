@@ -22,6 +22,14 @@ public final class BetterMOTdMain extends JavaPlugin {
 	public void onDisable() {
 
 	}
+	
+	public void isServer(String servName) {
+		if (servName == null) {
+			String serveName = servName;
+		} else {
+			String serveName = servName;
+		}
+	}
 
 	public boolean onCommand(CommandSender sender, Command cmd, String label,
 			String[] args) {
@@ -65,7 +73,7 @@ public final class BetterMOTdMain extends JavaPlugin {
 		return this.getConfig().getString("MOTD")
 		.replace("&p", player)
 		.replace("&w", world)
-		.replace("&s", this.getConfig().getString("serverName"));
+		.replace("&s", isServer(getConfig().getString("serverName")));
 >>>>>>> e2d9ae461089869aa184bedce1b4a08c08f5d8d6
 	}
 }
